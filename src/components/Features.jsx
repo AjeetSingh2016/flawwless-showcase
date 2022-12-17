@@ -15,13 +15,13 @@ const Features = () => {
     <div className={`${styles.section} ${styles.bgPrimary} banner03`}>
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
-          <h1 className={`${styles.h1Text} ${styles.whiteText}`}>Technologies</h1>
-          <p className={`${styles.pText} ${styles.whiteText}`}>ProNef has been developed using a cross-platform technology, React Native.</p>
+          <h1 className={`${styles.h1Text} ${styles.whiteText}`}>Join our Team</h1>
+          <p className={`${styles.pText} ${styles.whiteText}`}>Help us on our quest to make good Flawwless even better</p>
         </div>
 
         <div className={styles.flexWrap}>
-          <FeatureCard iconUrl={assets.react} iconText="React Native" />
-          <FeatureCard iconUrl={assets.javascript} iconText="JavaScript" />
+          <FeatureCard iconUrl={assets.react} iconText="Ambassador  Program" />
+          <FeatureCard iconUrl={assets.javascript} iconText="Contribution in Core" />
         </div>
       </div>
     </div>
@@ -29,3 +29,9 @@ const Features = () => {
 }
 
 export default Features
+
+
+
+// credits 
+// <a href="https://www.flaticon.com/free-icons/ambassador" title="ambassador icons">Ambassador icons created by Flat Icons - Flaticon</a>
+{/* <a href="https://www.flaticon.com/free-icons/puzzle" title="puzzle icons">Puzzle icons created by monkik - Flaticon</a> */}

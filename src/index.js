@@ -7,8 +7,8 @@ import {UnderConstruction} from "./components"
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <UnderConstruction />
+    <App />
+    {/* <UnderConstruction /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
