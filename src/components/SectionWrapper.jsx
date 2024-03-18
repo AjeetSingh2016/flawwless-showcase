@@ -46,7 +46,7 @@ const SectionWrapper = ({
           {showBtn && (
             <Button
               assetUrl={assets.expo}
-              link="https://play.google.com/store/apps/details?id=com.flawwless.app"
+              link="https://drive.usercontent.google.com/download?id=1IvZZKCzmjV759YFmvZ5DPYSmQtg9xihO&export=download&authuser=0"
             />
           )}
         </div>

@@ -6,35 +6,36 @@ import styles from "./styles/Global";
 const Home = () => {
   return (
     <>
+<SectionWrapper
+  title="Your Ultimate Expense Management Solution"
+  description="Take control of your finances with our powerful expense management app. Download now and simplify your financial life."
+  showBtn
+  mockupImg={assets.homeHero}
+  banner="banner"
+/>
 
-      <SectionWrapper
-        title="Legal Destination For Law Professionals & Students"
-        description="Download the app and start your journey with flawwless"
-        showBtn
-        mockupImg={assets.homeHero}
-        banner="banner"
-      />
-      <SectionWrapper
-        title="Rich Resources"
-        description="Flawwless is come into play for solving the study resources related problems, It consist of various informations revolving around law"
-        mockupImg={assets.feature}
-        reverse
-      />
+<SectionWrapper
+  title="Comprehensive Expense Tracking"
+  description="Our app offers robust features to tackle all your expense tracking needs. From categorizing expenses to generating insightful reports, we've got you covered."
+  mockupImg={assets.feature}
+  reverse
+/>
 
-      <Features />
+<Features />
 
-      <SectionWrapper
-        title="Smart User Interface and Application"
-        description="Experience a buttery UI of Flawwless Law Portal. Smooth constant colors of a fluent UI design."
-        mockupImg={assets.homeCards}
-        reverse
-      />
-      <SectionWrapper
-        title="Well Maintained"
-        description="Built while maintaining satisfaction top most priority of the users. Flawwless also contain embedded Dictionary to assist the users on their way of learning"
-        mockupImg={assets.mockup}
-        banner="banner02"
-      />
+<SectionWrapper
+  title="Sleek and User-Friendly Interface"
+  description="Experience a smooth and intuitive user interface designed to make managing your expenses effortless. With consistent color schemes and seamless navigation, tracking your finances has never been easier."
+  mockupImg={assets.homeCards}
+  reverse
+/>
+
+<SectionWrapper
+  title="Download Expense Manager By Scanning this QR"
+  description="We prioritize user satisfaction and ensure our app is always up-to-date and reliable. Our embedded expense dictionary provides additional assistance, making managing your expenses a breeze."
+  mockupImg={assets.mockup}
+  banner="banner02"
+/>
       <div>
         <br />
         <br />
@@ -47,7 +48,7 @@ const Home = () => {
       </div>
       <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
         <p className={`${styles.pText} ${styles.whiteText}`}>
-           <span className="bold">Flawwless 2022</span>
+           <span className="bold">Expense Manager 2024</span>
         </p>
       </div>
     </>
