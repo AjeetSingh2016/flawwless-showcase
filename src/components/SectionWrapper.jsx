@@ -46,7 +46,7 @@ const SectionWrapper = ({
           {showBtn && (
             <Button
               assetUrl={assets.expo}
-              link="https://drive.usercontent.google.com/download?id=1IvZZKCzmjV759YFmvZ5DPYSmQtg9xihO&export=download&authuser=0"
+              link="https://ncert-epub.s3.amazonaws.com/test/app-release.apk"
             />
           )}
         </div>
